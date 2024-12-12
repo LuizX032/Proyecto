@@ -1,0 +1,407 @@
+marquee {
+    font-size: 125px;
+    font-family: "Impact";
+}
+h1{
+    font-family: "Copperplate Gothic Light";
+    font-size: 18px;
+    margin: 15px;
+}
+h2 {
+    text-align: center;
+    font-family: "Bradley Hand ITC";
+    font-size: 20px;
+}
+h3{
+    font-family: "Copperplate Gothic Light";
+    font-size: 25px;
+}
+h4{
+    font-family: "Monotype Corsiva";
+    font-size: 25px;
+}
+h5{
+    font-family: "Copperplate Gothic Light";
+}
+body {
+    background-color: #211730;
+    color: #dadada;
+    margin: 0;
+}
+fieldset{
+    width: 400px;
+    place-self: center;
+    border-radius: 15%;
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    transform: translateX(-100%) rotate(-10deg);
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.img1 {
+    transform: translateX(-100%) rotate(-50deg);
+}
+
+.img2 {
+    transform: translateX(-100%) rotate(50deg);
+}
+.container3{ 
+    ackground-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+.img3{
+    transform: translateX(-100%) rotate(45deg);
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.seccion{
+    color: #dadada;
+    margin: 0;
+    text-align: center;
+}
+.seccion1{
+    background-color: #1a0c1a;
+    color: #dadada;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    opacity: 95%;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seccion2{
+    background-color: #211730;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.seccion3{
+    background-color: #dadada;
+    color: #1a0c1a;
+    padding: 20px;
+}
+.seccion4{
+    background-color: #211730;
+    color: #dadada;
+    margin-top: 50px;
+}
+.seccion5{
+    background-color: #dadada;
+    padding: 20px;
+    color: #211730;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin: 70px;
+    border-radius: 20px;
+}
+.seccion6{
+    background-color: #1a0c1a;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.button {
+    background-color: #dadada;
+    color: #211730;
+    border: 3px solid #dadada;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.button:hover {
+    background-color: #211730;
+    color: #dadada;
+    border: 3px solid #dadada;
+}
+.projects-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    transition: transform 0.3s;
+    margin: 20px;
+}
+.icon:hover{
+    transform: scale(2.0);
+}
+.services{
+    font-family: "Perpuria Tilting MT";
+    color: #dadada;
+    font-size: 40px;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity 0.3s;
+    margin: 10px;
+}
+.services:hover{
+    opacity: 60%;
+}
+.recommendation {
+    max-width: 600px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+.arrow:hover {
+    color: #007BFF;
+}
+#author-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.profile img{
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.text{
+    text-align: left;
+    margin-left: 20px;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 5px;
+}
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+.social-icons img:hover{
+    transform: scale(1.2);
+}
+.location{
+    font-family: "Copperplate Gothic Light";
+}
+.intro{
+    font-family: "Verdana";
+}
+.headerstar{
+    margin: 15px;
+    font-family: Viner Hand ITC;
+    font-size: 18px;
+    text-decoration: none;
+    color: #dadada;
+    transition: transform 0.4s;
+}
+.headerstar:hover{
+    transform: scale(1.5);
+}
+.authorr{
+    font-family: "Freestyle Script";
+    font-size: 25px;
+}
+.textareaa{
+    border-radius: 15px;
+    font-family: Verdana;
+    margin: 10px;
+}
+.buttonn {
+    background-color: #211730;
+    color: #dadada;
+    border: 3px solid #dadada;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+.buttonn:hover {
+    background-color: #dadada;
+    color: #211730;
+    border: 3px solid #dadada;
+}
+.hidden{
+    display: none;
+}
+#notification {
+    margin-top: 20px;
+    color: #dadada;
+    text-align: center;
+}
+.left{
+    text-align: left;
+    margin: 15px;
+}
+.projectdiv{
+    text-align: left;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.projectdivtitle{
+    font-size: 50px;
+    font-family: "Bradley Hand ITC";
+    margin-bottom: 15px;
+}
+.projectdivtools{
+    font-size: 17px;
+    font-family: "Copperplate Gothic Light";
+}
+
+.projectshell-container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.projectshell {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.projectshell-text {
+    font-size: 1.5em;
+    font-family: "Monotype Corsiva";
+}
+.enfasis{
+    font-size: 20px;
+    font-family: "Copperplate Gothic Light";
+}
+.projectdivtitle2{
+    font-size: 40px;
+    font-family: "Bradley Hand ITC";
+}
+.projectimages{
+    width: 100%;
+    border-radius: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .seccion1, .seccion3, .seccion4, .seccion5, .seccion6 {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        text-align: center;
+    }
+    .seccion2{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        text-align: center;
+        margin-top: 150px;
+        padding: 0px;
+    }
+
+    .projectshell-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .projectdiv {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .projectdivtitle, .projectdivtitle2 {
+        font-size: 1.5em;
+    }
+
+    h1, h2, h3, h4, h5 {
+        margin: 5px;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+    .img3{
+        width: 50%;
+        place-self: center;
+        margin: 5px;
+    }
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .button, .buttonn {
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .services {
+        font-size: 20px;
+    }
+
+    .recommendation {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .button, .buttonn{
+        width: 60%;
+    }
+    .arrow{
+        align-self: center;
+    }
+    .textareaa{
+        width: 80%;
+    }
+    fieldset{
+        width: 80%;
+    }
+}
