@@ -1,0 +1,21 @@
+body{
+	background-color: #854598;
+}
+tr, td{
+	text-align: center;
+}
+label, input{
+	margin: 5px;
+}
+table{
+	background-color: #a1f2ff;
+	margin-top: 13%;
+	box-shadow: 0px 0px 150px 30px #a1f2ff;
+}
+.resultadox{
+	display: none;
+	text-align: center;
+}
+.rosaditos{
+	background-color: #fba1ff;
+}
